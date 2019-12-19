@@ -7,9 +7,3 @@
 #puts names.size  # This returns 20
 #puts names.length # This also returns 20
 
-class Array
-  def square!
-    self.map {|num| num ** 2}
-    self
-  end
-end
