@@ -8,3 +8,7 @@
 #puts names.length # This also returns 20
 
 new_names = ["bill","Bart","Beth"]
+
+name.each do |n|
+  new names << n.upcase
+end
